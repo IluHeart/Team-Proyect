@@ -23,6 +23,18 @@ const teamMemmbers = [
     favoriteBook: "El principito",
     petName: "",
   },
+  {
+    name: "Nicolae Alexandru",
+    surname: "Casiean",
+    age: 25,
+    city: "Valencia",
+    hobby: "Gaming",
+    favoriteFood: "Hamburger",
+    favoriteVideoGame: "Valorant",
+    favoriteFilm: "Coco",
+    favoriteBook: "Harry Potter el misterio de azkaban",
+    petName: "Dog: rocky. Cat:Della",
+  },
 ];
 
 
