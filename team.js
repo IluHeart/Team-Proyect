@@ -11,4 +11,18 @@ const teamMemmbers = [
     favoriteBook: "Manga:PunPun",
     petName: "",
   },
+  {
+    name: "Wilmer",
+    surname: "Salazar",
+    age: 26,
+    city: "Madrid",
+    hobby: "Leer",
+    favoriteFood: "Pizza",
+    favoriteVideoGame: "Luigi's Mansion",
+    favoriteFilm: "La vida es bella",
+    favoriteBook: "El principito",
+    petName: "",
+  },
 ];
+
+
