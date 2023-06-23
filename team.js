@@ -23,6 +23,16 @@ const teamMemmbers = [
     favoriteBook: "El principito",
     petName: "",
   },
+  {
+    name: "Manuel",
+    surname: "Benitez",
+    age: 29,
+    city: "Palma",
+    hobby: "Ski",
+    favoriteFood: "Empanadas",
+    favoriteVideoGame: "Catan",
+    favoriteFilm: "",
+    favoriteBook: "Shantaram",
+    petName: "Shiva, Shaka, Mechi",
+  },
 ];
-
-
