@@ -35,6 +35,16 @@ const teamMemmbers = [
     favoriteBook: "Harry Potter el misterio de azkaban",
     petName: "Dog: rocky. Cat:Della",
   },
+  {
+    name: "Anabel",
+    surname: "Castillo",
+    age: 27,
+    city: "Cádiz",
+    hobby: "Crossfit",
+    favoriteFood: "Pizza",
+    favoriteVideoGame: "Kingdom Hearts",
+    favoriteFilm: "Pesadilla antes de Navidad",
+    favoriteBook: "Canción de Hielo y Fuego",
+    petName: "",
+  },
 ];
-
-
