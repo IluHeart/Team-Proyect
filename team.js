@@ -70,3 +70,5 @@ const averageAge = sumOfAges / teamMemmbers.length;
 console.log("La edad promedio del equipo es: " + averageAge);
 
 
+=======
+];
