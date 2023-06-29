@@ -47,4 +47,28 @@ const teamMemmbers = [
     favoriteBook: "Canción de Hielo y Fuego",
     petName: "",
   },
+
+];
+
+  // Print the team in age order (name age). Wilmer
+
+  teamMemmbers.sort((a, b) => a.age - b.age);
+
+  teamMemmbers.forEach(member => {
+    console.log(`${member.name} ${member.age}`);
+  });
+
+
+
+//Print the team middle age. Wilmer
+
+const sumOfAges = teamMemmbers.reduce((sum, member) => sum + member.age, 0);
+
+
+const averageAge = sumOfAges / teamMemmbers.length;
+
+console.log("La edad promedio del equipo es: " + averageAge);
+
+
+=======
 ];
