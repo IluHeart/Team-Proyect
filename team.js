@@ -47,28 +47,43 @@ const teamMemmbers = [
     favoriteBook: "Canción de Hielo y Fuego",
     petName: "",
   },
+]
 
-];
+// Print the team in age order (name age). Wilmer
 
-  // Print the team in age order (name age). Wilmer
+teamMemmbers.sort((a, b) => a.age - b.age);
 
-  teamMemmbers.sort((a, b) => a.age - b.age);
-
-  teamMemmbers.forEach(member => {
-    console.log(`${member.name} ${member.age}`);
-  });
-
-
+teamMemmbers.forEach(member => {
+  console.log(`${member.name} ${member.age}`);
+});
 
 //Print the team middle age. Wilmer
 
 const sumOfAges = teamMemmbers.reduce((sum, member) => sum + member.age, 0);
 
-
 const averageAge = sumOfAges / teamMemmbers.length;
 
 console.log("La edad promedio del equipo es: " + averageAge);
 
+//Print the team in alphabetical order (surname name). Ilies
 
-=======
-];
+teamMemmbers.sort((a, b) => a.surname.localeCompare(b.surname));
+
+for (const miembro of teamMemmbers) {
+  console.log(`${miembro.surname}`);
+}
+
+//Print if there are some members with the same name (name). Ilies
+
+function mismoNombre(teamMemmbers) {
+  const names = teamMemmbers.map((member) => member.name);
+  const iNames = new Set(names);
+
+  if (names.length !== iNames.size) {
+    console.log("Hay miembros del equipo con el mismo nombre");
+  } else {
+    console.log("Todos los miembros del equipo tienen nombres únicos.");
+  }
+}
+
+mismoNombre(teamMemmbers);
