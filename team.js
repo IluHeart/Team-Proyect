@@ -87,3 +87,9 @@ function mismoNombre(teamMemmbers) {
 }
 
 mismoNombre(teamMemmbers);
+
+for (const member of teamMembers) {
+  if (member.petName !== "") {
+    console.log(member.name + " tiene mascota y se llaman: " + member.petName);
+  }
+}
